@@ -35,6 +35,10 @@ All sources use permissive open source licenses (MIT / Apache-2.0) which allow r
 | vadimdemedes/cat-facts | MIT | https://github.com/vadimdemedes/cat-facts |
 | wh-iterabb-it/meowfacts | MIT | https://github.com/wh-iterabb-it/meowfacts |
 
+## Fact length
+
+Home Assistant limits sensor state values to 255 characters. To ensure every fact displays correctly without truncation, all 17 facts from the original sources that exceeded this limit have been manually rewritten. The core information of each fact is preserved; only the wording was shortened to fit within the limit.
+
 ## License
 
 This dataset is released under the [MIT License](LICENSE).
